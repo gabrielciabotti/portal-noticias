@@ -1,0 +1,27 @@
+header {
+    background-color: lightcoral;
+}
+nav{
+    background-color: lightgreen;
+}
+aside{
+    background-color: lightpink;
+}
+main{
+    background-color: lightblue;
+}
+article{
+    background-color: lightskyblue;
+}
+figure{
+    background-color: lightgoldenrodyellow;
+}
+p{
+    background-color: lightseagreen;
+}
+section{
+    background-color: #6868dd;
+}
+footer{
+    background-color: #a43ecc;
+}

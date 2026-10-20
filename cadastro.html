@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cor.css">
+</head>
+
+<body>
+<header>
+        <h1>SEU CADASTRO</h1>
+        <p>Venha fazer parte da nossa sociedade mecanimais</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="noticia.html">Notícia de última hora</a></li>
+            <li><a href="cadastro.html">Assine a newmec</a></li>
+        </ul>
+    </nav>
+    <hr>
+<form onsubmit="alert('dados enviados')">
+        <label>Nome:</label>
+        <input type="text" required placeholder="Digite aqui seu nome!"
+        maxlength="20">
+
+        <br>
+        <br>
+
+        <label>Email:</label>
+        <input type="email" required placeholder="Digite aqui seu email!"
+        maxlength="30">
+
+        <br>
+        <br>
+
+        <label>Senha:</label>
+        <input type="password" required placeholder="Digite sua senha!"
+        maxlength="10">
+        <br>
+        <br>
+
+        <label>Data de nascimento:</label>
+        <input type="date" required>
+
+        <br>
+        <br>
+
+        <label>Cor Favorita:</label>
+        <input type="color" required>
+
+        <br>
+        <br>
+
+        <button type="submit"> 
+            Enviar dados!
+        </button>
+    </form>
+</body>
+
+</html>
